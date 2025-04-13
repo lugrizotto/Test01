@@ -23,6 +23,7 @@ const nextConfig = {
     unoptimized: true,
   },
   experimental: {
+    appDir: true, // ✅ Habilita a pasta /app como base do projeto
     webpackBuildWorker: true,
     parallelServerBuildTraces: true,
     parallelServerCompiles: true,
